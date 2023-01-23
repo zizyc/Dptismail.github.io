@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="with=device-width, intial-scale=1.0">
+         <title>D.P.T ismail</title>
+         <link rel="stylesheet" href="style.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&family=Ruda&family=Sacramento&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+         
+    </head>
+  
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/ismail-low-resolution-logo-color-on-transparent-background.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    
+                    <i class="fa fa-times"onclick="hideMenu()" ></i>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+                
+            </nav>
+           <h1>Contact Us</h1>
+            
+        </section>
+
+        <!-------Contact Us-------->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11819.481013816974!2d20.7407499!3d42.2172176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x964c385323bf983b!2sD.P.T%20Ismail!5e0!3m2!1sen!2s!4v1674425747864!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>Rexhep Kabashi, Prizren 20000, Kosovo</h5>
+                            <p> Prizren, Kosovo</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>+383 44 415 718</h5>
+                            <p> Monday to Saturday, 09:00AM to 07:00PM </p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>dptismail@gmail.com</h5>
+                            <p> Email Us </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Email Adress" required>
+                        <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </section>
+        
+
+        
+
+        
+            
+        
+        
+        
+       
+
+
+        </section>
+       
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Here are Our Social Media Accounts </p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+
+                </div>
+                <p> Made with <i class="fa fa-heart"></i> by DPT Ismail</p>
+            
+
+        </section>
+
+        
+
+    <script>
+
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+        navLinks.style.right = "0";
+        }
+        function hideMenu() {
+        navLinks.style.right = "-200px";
+     }
+
+     
+
+
+    </script>
+
+    
+
+
+   </body>
+</html>
